@@ -1,0 +1,688 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    overflow: hidden;
+}
+
+.header_main {}
+
+.header_div {}
+
+.header_nav {
+    background-color:
+        rgba(231, 46, 119, 0.85);
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo_img_div {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo_img {
+    width: 14%;
+}
+
+.manu_div {}
+
+.manu {
+    width: 50%;
+}
+
+.header_main {
+    background-image: url('../src/utiles/header.svg');
+    height: 95vh;
+    width: 100vw;
+
+}
+
+.header_title_div {}
+
+.header_title {
+    margin: 0;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.header_title_message {
+    margin: 0;
+    padding: 5px;
+    width: 33%;
+    color: white;
+    padding-left: 4rem;
+    text-align: center;
+
+}
+
+.header_message_main {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 60px;
+}
+
+.header_message_div {
+    background-color: white;
+    width: 28vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 27px;
+}
+
+.header_input_div_1 {
+    margin-top: 20px;
+    border: 3px solid #EB4D8B;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 22vw;
+    justify-content: space-between;
+}
+
+.header_input_1 {
+    border: none;
+    font-size: 1rem;
+
+}
+
+.header_input_img_1 {
+    width: 18%;
+}
+
+.header_input_div_2 {
+    margin-top: 20px;
+    border: 3px solid #EB4D8B;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 22vw;
+    justify-content: space-between;
+}
+
+.header_input_2 {
+    border: none;
+    font-size: 1rem;
+
+}
+
+.header_input_img_2 {
+    width: 18%;
+}
+
+.header_input_2:focus {
+    outline: none;
+}
+
+.header_input_1:focus {
+    outline: none;
+}
+
+.header_button_stated {
+    padding: 10px 24px;
+    font-size: 25px;
+    margin-top: 20px;
+    background-color: #E2008A;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+.header_button_stated:hover {
+    background-color: #e2008ad1;
+    cursor: pointer;
+}
+
+
+.header_note {
+    margin-top: 65px;
+}
+
+.header_note_head {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 3px;
+}
+
+.header_note_message {
+    line-height: 19px;
+    margin: 0px 20px;
+}
+
+.explore_main_div {
+    display: flex;
+    margin-top: 120px;
+    background-color: #F4CED6;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.explore_header_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.explore_header {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 50px;
+}
+
+.explore_button {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    margin-left: 50px;
+    padding: 10px 30px;
+    background-color: #ffffff00;
+}
+
+.explore_button:hover {
+    background-color: #ffcecc70;
+    cursor: pointer;
+}
+
+.explore_img_div {}
+
+.explore_img {}
+
+
+.weddingcat_main_div {
+    margin-top: 80px;
+}
+
+.weddingcat_types_div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.weddingcat_type_div_1 {
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    background-color: #D8DFFC;
+    height: 8.2rem;
+    justify-content: space-between;
+}
+
+.weddingcat_type_div_2 {
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    background: #DFB2AD;
+    height: 8.2rem;
+    justify-content: space-between;
+}
+
+.weddingcat_type_div_3 {
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    background: #DCF7F7;
+    height: 8.2rem;
+    justify-content: space-between;
+}
+
+.weddingcat_type_div_4 {
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    background: #F4D5C2;
+    height: 8.2rem;
+    justify-content: space-between;
+}
+
+.weddingcat_type_div_5 {
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    background: #CFCDB8;
+    height: 8.2rem;
+    justify-content: space-between;
+}
+
+.weddingcat_type_div_6 {
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    background: #E5D3BD;
+    height: 8.2rem;
+    justify-content: space-between;
+}
+
+.weddingcat_head {
+    font-size: 1.7rem;
+    margin-left: 20px;
+}
+
+.weddingcat_para {
+    font-size: 0.9rem;
+    margin-left: 18px;
+}
+
+
+.gallery_main {
+    margin-top: 80px;
+}
+
+.gallery_main_div {
+    background-color: #F5F5F5;
+    margin: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gallery_main_heading {
+    text-align: center;
+}
+
+.gallery_type_div_1 {
+    box-shadow: 0px 0px 19px 0px black;
+    border-radius: 10px;
+}
+
+.gallery_type_div_2 {
+    box-shadow: 0px 0px 19px 0px black;
+    border-radius: 10px;
+
+}
+
+.gallery_type_div_3 {
+    box-shadow: 0px 0px 19px 0px black;
+    border-radius: 10px;
+
+}
+
+.gallery_type_div_4 {
+    box-shadow: 0px 0px 19px 0px black;
+    border-radius: 10px;
+
+}
+
+.gallery_type_div_5 {
+    box-shadow: 0px 0px 19px 0px black;
+    border-radius: 10px;
+
+}
+
+.gallery_type_div_6 {
+    box-shadow: 0px 0px 19px 0px black;
+    border-radius: 10px;
+
+}
+
+.gallery_type_div_7 {
+    box-shadow: 0px 0px 19px 0px black;
+    border-radius: 10px;
+
+}
+
+.gallery_div {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.gallery_div:hover {
+    transform: scale(1.1);
+}
+
+.gallery_img {
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.gallery_title {
+    text-align: center;
+}
+
+.gallery_button_more_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16rem;
+    height: 16rem;
+    box-shadow: 0px 0px 19px 0px black;
+    border-radius: 10px;
+
+}
+
+.blog_main {
+    margin-top: 90px;
+}
+
+.blog_one {
+    display: flex;
+    margin: 29px;
+    gap: 18px;
+}
+
+
+.blog_one_img {
+    width: 50vw;
+}
+
+.blog_one_message {
+    width: 50vw;
+}
+
+
+.blog_one_para {
+    line-height: 29px;
+}
+
+.blog_two {
+    display: flex;
+    margin: 29px;
+    gap: 18px;
+    flex-direction: row-reverse;
+}
+
+.blog_two_img {
+    width: 50vw;
+}
+
+.blog_two_message {
+    width: 50vw;
+}
+
+.blog_two_para {
+    line-height: 29px;
+}
+
+.blog_readmore_btn_div {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.blog_readmore_btn {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding: 5px 40px;
+    background: #EB4D8B;
+    border: none;
+    cursor: pointer;
+}
+
+.footer_main {
+    margin-top: 100px;
+}
+
+.footer_main_div {}
+
+.footer_first {
+    margin-bottom: 70px;
+}
+
+.footer_div_2 {
+    text-align: center;
+}
+
+.footer_both {
+    display: flex;
+    margin-top: 52px;
+}
+
+.footer_getemail {
+    width: 50vw;
+}
+
+.footer_getemail_input {
+    padding: 5px 69px 5px 0px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+.footer_getemail_button {
+    padding: 7px 10px;
+    background: #EB4D8B;
+    border: none;
+}
+
+.footer_mobile {
+    width: 50vw;
+}
+
+.footer_mobile_img_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_second {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_line {
+    width: 90vw;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.46);
+    margin: 0px 43px;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo_img {
+        width: auto;
+    }
+
+    .header_message_main {
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .header_message_div {
+        background-color: white;
+        width: auto;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 27px;
+    }
+
+    .header_input_div_1 {
+        margin-top: 20px;
+        border: 3px solid #EB4D8B;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        width: auto;
+        justify-content: space-between;
+    }
+
+    .header_input_div_2 {
+        margin-top: 20px;
+        border: 3px solid #EB4D8B;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        width: auto;
+        justify-content: space-between;
+    }
+
+    .explore_img_div {
+        display: none;
+    }
+
+    .weddingcat_types_div {
+        display: flex;
+        gap: 10px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .weddingcat_type_div_1 {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        background-color: #D8DFFC;
+        height: 8.2rem;
+        justify-content: space-between;
+    }
+
+    .weddingcat_type_div_2 {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        background: #DFB2AD;
+        height: 8.2rem;
+        justify-content: space-between;
+    }
+
+    .weddingcat_type_div_3 {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        background: #DCF7F7;
+        height: 8.2rem;
+        justify-content: space-between;
+    }
+
+    .weddingcat_type_div_4 {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        background: #F4D5C2;
+        height: 8.2rem;
+        justify-content: space-between;
+    }
+
+    .weddingcat_type_div_5 {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        background: #CFCDB8;
+        height: 8.2rem;
+        justify-content: space-between;
+    }
+
+    .weddingcat_type_div_6 {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        background: #E5D3BD;
+        height: 8.2rem;
+        justify-content: space-between;
+    }
+
+    .weddingcat_head {
+        font-size: 1.7rem;
+    }
+
+    .weddingcat_para {
+        font-size: 0.9rem;
+    }
+
+    .gallery_main_div {
+        background-color: #F5F5F5;
+        margin: 26px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 29px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        justify-content: center;
+    }
+
+    .blog_one_img {
+        width: 73vw;
+    }
+
+    .blog_one {
+        display: flex;
+        gap: 18px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog_one_message {
+        width: 90vw;
+    }
+
+    .blog_two {
+        display: flex;
+        margin: 29px;
+        gap: 18px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog_two_img {
+        width: 72vw;
+    }
+
+    .blog_two_message {
+        width: 90vw;
+    }
+
+    .footer_getemail {
+        width: 90vw;
+    }
+
+    .footer_mobile {
+        width: 90vw;
+    }
+
+    .footer_both {
+        display: flex;
+        margin-top: 52px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_second {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .explore_header {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 37px;
+        line-height: 35px;
+        letter-spacing: 0.02em;
+        color: #000000;
+        margin-left: 0px;
+    }
+}
